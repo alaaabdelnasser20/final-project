@@ -9,7 +9,7 @@ import base64
 app = Flask(__name__)
 
 
-model = tf.keras.models.load_model('flaskapp/project/tomato_model.h5')
+model = tf.keras.models.load_model('tomato_model.h5')
 
 
 print(model)
