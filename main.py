@@ -8,8 +8,8 @@ import base64
 
 app = Flask(__name__)
 
-model_path = 'C:\\Users\\ECC\\Desktop\\flaskapp\\flaskapp\\project\\tomato_model.h5'
-model = tf.keras.models.load_model(model_path)
+
+model = tf.keras.models.load_model(tomato_model.h5)
 
 
 print(model)
